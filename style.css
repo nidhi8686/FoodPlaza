@@ -1,0 +1,226 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+.container{
+        width:100%;
+        margin:0 auto;
+}
+nav{
+        background-color:black;
+}
+nav>a{
+        color:white;
+        text-decoration: none;
+        font-size: 30px;
+        float:left;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+}
+.nav1>ul{
+        float:right;
+        list-style:none;
+}
+.nav1>ul>li{
+        display: inline-block;
+        padding:30px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+}
+
+.nav1>ul>li>a{
+        text-decoration:none;
+        font-size: 25px;
+        color:white;
+        font-family: Grenze Gotisch;
+}
+
+.nav1>ul>li:hover{
+        background-color: rgb(219, 31, 69);
+}
+.nav1>ul:last-child{
+        padding-right: 50px;
+}
+nav::after{
+        content:' ';
+        display:block;
+        clear:both;
+}
+
+.main{
+        width:100%;
+        height:800px;
+}
+
+.main>img{
+        width:100%;
+        height:800px;
+        object-fit: cover;
+}
+.menu{
+        background-color: black;
+        
+}
+.pic{
+        float:left;
+        width:24%;
+        
+}
+.pic>p{
+        font-size: 30px;
+        color:white;
+        font-family: Grenze Gotisch;
+        padding-top: 20px;
+        padding-left:150px;
+        transition: 1s;
+}
+.pic>p:hover{
+       color: rgb(219, 31, 69) ;
+        cursor:pointer;
+        transform: scale(1.2);
+}
+.pic>img{
+        width:90%;
+        height:200px;
+        padding-left:70px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+}
+.menu::after{
+        content: " ";
+        display: block;
+        clear: both;
+}
+.service{
+        width:100%;
+}
+.service>h1{
+        font-family: Grenze Gotisch;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 10px;
+        height: 120px;
+}
+.col{
+        width:33%;
+        text-align: center;
+        border-right:2px solid rgb(155, 150, 150);
+        float:left;
+}
+.col:last-child{
+        border-right: none;
+}
+.col>h3{
+        font-family: Grenze Gotisch;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+.col>p{
+        text-align: center;
+        font-size: 15px;
+        padding-left:30px;
+        padding-right:30px;
+        padding-bottom: 20px;
+}
+.service::after{
+        content: " ";
+        display: block;
+        clear: both;
+}
+.col>p>a{
+        text-decoration: none;
+        background-color:#089de3;
+        padding:10px;
+        color:white;
+        border-radius: 20px;
+        font-size:15px;
+}
+.col>p>a:hover{
+        background-color: rgb(6, 6, 240);
+}
+.about>h1{
+        font-family: Grenze Gotisch;
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+        color:white;
+}
+.about{
+        background:linear-gradient(to right,#c9c6c6,black),url('images/b.jpg');
+        background-blend-mode: hard-light;
+        background-size: cover;
+        width:100%;
+        height:680px;
+}
+.about>table{
+        padding-left:150px;
+        padding-right:70px;
+        color:white;
+        font-size:18px;
+}
+.contact>h1{
+        font-family: Grenze Gotisch;
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 50px;
+        padding-top: 30px;
+}
+.contact{
+        height:550px;
+        background-image:linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%), url('images/coo.png');
+        background-size: cover;
+        background-blend-mode:hard-light ;
+        clear: both;
+        width:100%;
+}
+.form1{
+        width:50%;
+}
+.form1>form>input{
+        margin-left:200px;
+        margin-bottom:5px;
+        width:60%;
+        height: 40px;
+
+}
+.form1>form>textarea{
+        margin-left:200px;
+        margin-bottom:5px;
+        width:60%;
+        height: 160px;
+        float:left;
+
+}
+.image{
+       width:40%;
+       float: right;
+        margin-top:-120px;
+        margin-left:100px;
+}
+.pic2{
+        clear:both;
+        margin-left:650px;
+        margin-top: 230px;
+}
+.zoom{
+        transition: 1s;
+}
+.zoom:hover{
+        transform: scale(1.5);
+}
+footer{
+        background-color: black;
+        color:white;
+        text-align: right;
+}
+footer>p{
+        padding:15px;
+        font-size: 15px;
+}
