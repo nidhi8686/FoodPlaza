@@ -174,7 +174,7 @@ nav::after{
 }
 .contact{
         height:550px;
-        background-image:linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%), url('images/coo.png');
+        background-image:linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%), url('images/coo.PNG');
         background-size: cover;
         background-blend-mode:hard-light ;
         clear: both;
